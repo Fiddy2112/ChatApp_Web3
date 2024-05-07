@@ -1,8 +1,10 @@
 import React from "react";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { useAccount } from "wagmi";
 
 function ChatApp() {
-  return <ConnectButton />;
+  const account = useAccount();
+  console.log(account);
+  return <div>CHatApp</div>;
 }
 
 export default ChatApp;
