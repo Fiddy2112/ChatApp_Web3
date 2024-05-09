@@ -13,7 +13,7 @@ function Header() {
     }
   });
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between p-2">
       <div>
         <a href="" className="no-underline text-4xl font-medium font-sans">
           CHAT APP
