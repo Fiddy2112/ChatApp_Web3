@@ -131,6 +131,8 @@ export const ChatAppProvider = ({ children }) => {
         addFriends,
         sendMessage,
         readUser,
+        CheckIfWalletConnected,
+        connectWallet,
         account,
         userName,
         friendLists,

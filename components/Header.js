@@ -13,13 +13,13 @@ function Header() {
     }
   });
   return (
-    <div className="flex items-center justify-between p-2">
+    <div className="hidden lg:flex items-center justify-center lg:justify-between py-2 container mx-auto">
       <div>
         <a href="" className="no-underline text-4xl font-medium font-sans">
           CHAT APP
         </a>
       </div>
-      <div className="px-4">
+      <div className="px-4 hidden lg:block">
         {installWallet ? <ConnectButton /> : <WalletButton wallet="metamask" />}
       </div>
     </div>

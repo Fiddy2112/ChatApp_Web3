@@ -52,6 +52,9 @@ const myTheme = merge(midnightTheme(), {
   colors: {
     accentColor: "#18181b",
     accentColorForeground: "#fff",
+    actionButtonBorder: "medium",
+    actionButtonBorderMobile: "large",
+    actionButtonSecondaryBackground: "#fff",
   },
 });
 
